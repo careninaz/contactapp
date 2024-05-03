@@ -1,7 +1,7 @@
 <?php
-function parseEnv($filePath)
+function parseEnv($)
 {
-    $contents = file_get_contents($filePath);
+    $contents = file_get_contents($"D:\Semester 4\PWEB\contactapp\index.php");
     $lines = explode("\n", $contents);
     $env = [];
 
